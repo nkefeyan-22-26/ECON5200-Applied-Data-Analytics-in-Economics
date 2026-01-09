@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPgMkYxIdsoc4Nw6yARXTe9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nkefeyan-22-26/ECON5200-Applied-Data-Analytics-in-Economics/blob/main/Lab%201%20%22Hello%2C%20Pandas%22\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "VN3ZNHnCROL6"
+      },
+      "outputs": [],
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "import seaborn as sns"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Manual Dictionary Construction\n",
+        "# Data Source: Table 1.4 (Jan 2015)\n",
+        "# INSTRUCTION: Complete the lists inside the brackets below.\n",
+        "# Ensure strings have quotes '' and numbers do not.\n",
+        "\n",
+        "data = {\n",
+        "    'Country': ['United States', 'Argentina', 'Australia', 'Brazil',\n",
+        "                'Britain', 'China', 'Egypt', 'Euro area', 'Hong Kong',\n",
+        "                'Indonesia', 'Japan', 'Mexico', 'Norway', 'Pakistan', 'Philippines',\n",
+        "                'Russia', 'Saudi Arabia', 'South Africa', 'South Korea'],   # Example: ['United States', 'Britain', ...]\n",
+        "    'iso_a3': ['USA', 'ARG', 'AUS', 'BRA', 'GBR', 'CHN', 'EGY', 'EUZ', 'HKG', 'IDN', 'JPN',\n",
+        "               'JPN', 'MEX', 'NOR', 'PAK', 'PHL', 'RUS', 'SAU', 'ZAF', 'KOR'],    # Example: ['USA', 'GBR', 'CHN', 'NOR', 'BRA']\n",
+        "    'local_price': [4.79,3.25,4.32,5.21,4.37,2.77,2.30,4.26,2.43,2.24,3.14,\n",
+        "                    3.35,6.30,2.98,3.67,1.36,2.93,2.22,3.78], # Example: [4.79, 2.89, ...]\n",
+        "    'dollar_ex': [1.00,8.62]    # Example: [1.0, 0.66, ...]\n",
+        "}\n",
+        "\n",
+        "# Convert to DataFrame\n",
+        "df = pd.DataFrame(data)\n",
+        "print(df)"
+      ],
+      "metadata": {
+        "id": "evzvL0YTR5Lj"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
