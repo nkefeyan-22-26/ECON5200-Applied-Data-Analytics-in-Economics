@@ -70,7 +70,7 @@ The student inflation rate hasn't just exceeded general inflation—it's outpace
 
 ### 2. **Tuition is the Primary Driver—But Not the Only One**
 
-![Component Breakdown](visualizations/component_breakdown.png)
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/aca9babc-1e0f-4d1e-895c-7d1965ce4aa2" />
 
 Breaking down the Student Price Index by component reveals:
 
@@ -88,7 +88,7 @@ Breaking down the Student Price Index by component reveals:
 
 ### 3. **The Divergence Began in the Late 1990s—and Never Stopped**
 
-![Gap Analysis](visualizations/gap_analysis.png)
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/dd46588c-3358-4e11-9337-2b97976f9f31" />
 
 The shaded area represents the **inflation gap**—the difference between what students experience versus what official statistics report. This gap:
 
@@ -103,7 +103,7 @@ The shaded area represents the **inflation gap**—the difference between what s
 
 ### 4. **Streaming Services: The New "Invisible Tax" on Students**
 
-![Tuition vs Streaming](visualizations/tuition_vs_streaming.png)
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/cdb6b090-105b-4f09-b215-e16fe207edf5" />
 
 While tuition dominates headlines, technology subscriptions represent a **hidden inflationary force:**
 
