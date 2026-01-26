@@ -57,7 +57,7 @@ Weights derived from College Board's *Trends in College Pricing* survey data com
 
 ### 1. **The Student Inflation Crisis is Real—and Accelerating**
 
-![Regional Analysis](visualizations/regional_disparity.png)
+<img width="1189" height="690" alt="image" src="https://github.com/user-attachments/assets/7251d445-fc99-4787-9333-680e0b65d3ab" />
 
 **Since 1992:**
 - National CPI: **+126%**
